@@ -8,14 +8,19 @@ This work is licensed under a
 
 # CADET Tutorials
 
-This is a repository for introductory examples and tutorials of the [CADET-Process](https://cadet-process.readthedocs.io/) software for modelling and simulating chromatographic processes.
+This is a repository for introductory examples of [CADET-Process](https://cadet-process.readthedocs.io/) for the class on Industrial Purification of Biomolecules (IPB) class at HES-SO Valais-Wallis.
 
-For more information, see also:
-- **Website (including documentation):** https://cadet-process.readthedocs.io/
-- **Forum:** https://forum.cadet-web.de
-- **Source:** https://github.com/fau-advanced-separations/CADET-Process
 
-## Download the tutorials
+# Using this tutorial
+## Execution over myBinder
+
+The easiest way to use this tutorial is through myBinder:
+
+https://mybinder.org/v2/gh/maruedt/IPB_CADET/HEAD
+
+
+## Local installation
+### Download the tutorials
 To run the tutorials locally, we recommend installing [Anaconda](https://www.anaconda.com/).
 Anaconda is a high-performance scientific distribution of Python that includes many common packages needed for scientific and engineering work.
 Download the installer from their website and run it for the local (!) user.
@@ -43,13 +48,13 @@ Activate it using the following command
 conda activate cadet
 ```
 
-## Getting started
+### Getting started
 Fire up a `jupyter-lab` and get started with the Tutorials.
 
 In case you are new to `Python` and `jupyter`, we also included a small tutorial (`00_Introduction_Python`) which covers the necessary basics for the tutorials.
 
 
-## Fixing potential problems.
+### Fixing potential problems.
 - If you get the following error `The code execution cannot proceed because VCRUNTIME140_1.dll was not found. Reinstalling the program may fix this problem.`, please visit https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads and install the latest Microsoft Visual C++ Redistributable.
 - Some of the notebooks include interactive graphs. To enable them, please open an Anaconda prompt and run:
     - For JupyterLab 2.0+
@@ -59,3 +64,10 @@ In case you are new to `Python` and `jupyter`, we also included a small tutorial
       jupyter lab build
       ```
     - For JupyterLab 3.0+: install `ipympl`
+
+# Further information
+For more information, see also:
+- **Detailed tutorials:** https://github.com/modsim/CADET-Process_Tutorial
+- **Website (including documentation):** https://cadet-process.readthedocs.io/
+- **Forum:** https://forum.cadet-web.de
+- **Source:** https://github.com/fau-advanced-separations/CADET-Process
